@@ -86,8 +86,10 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 #     }
 # }
 DATABASES={
-    'default':dj_database_url.parse("postgresql://testcalorie_user:Yb1J39EN4x8DqUovbTb4cCfsrHBkOkxo@dpg-ctum4trqf0us73f65st0-a.oregon-postgres.render.com/testcalorie")
+    'default':dj_database_url.parse("postgresql://caltest_7pdj_user:RWxB3zKsoeP7IZTzdESp4Ejcs9ERAbSX@dpg-d48b7omr433s739vmjj0-a.oregon-postgres.render.com/caltest_7pdj")
 }
+
+
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
 
